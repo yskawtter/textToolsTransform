@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #B3840E;
+}
+.upperLetter {
+    display: flex;
+    flex-direction: column;
+}
+#fieldText {
+    background-color: #FCB914;
+    border: none;
+    color: #665427;
+}
+.headernav  {
+    background-color: #FCB914;
+    padding: 12px;
+}
+.headernav h1 {
+    color: #665427;
+    text-align: center;
+}
+.container div {
+    display: flex;
+    flex-direction: column;
+    padding-right: 150px;
+    justify-content: center;
+}
+.ask-container label {
+    padding-top: 32px;
+    color: #665427;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.butoes {
+    display: flex !important;
+    flex-direction: row !important;
+    gap: 22px;
+}
+.butoes button {
+    background-color: #FCB914;
+    border: none;
+    padding: 14px;
+    cursor: pointer;
+    margin-top: 32px;
+    transition: .2S;
+}
+.butoes button:hover {
+    background-color: #E6AA12;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
